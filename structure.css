@@ -1,0 +1,389 @@
+html{
+    background-image: url("bck2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300vh;
+    display: grid;
+
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: flex;
+    height: 300vh; 
+    justify-content: space-evenly;
+    flex-flow: column;
+}
+
+.section_1{
+    height: 100vh;
+    display: grid;
+    align-content: space-evenly;
+}
+
+.section_2{
+    height: 100vh;
+}
+
+.section_3{
+    height: 100vh;
+    display: grid;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    flex-grow: 0;
+    flex-basis: auto;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 9vw;
+    margin-left: 2vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo_img{
+    width: 7.2vw;
+    margin-left: 1.6vw;
+}
+
+.button_1{
+    width: 19.1vw;
+    height: 3.45vw;
+    background: linear-gradient(180deg, #CA0000 0%, #310304 100%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    border: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1vw;
+    line-height: 31px;
+    color: white;
+    margin: auto;
+}
+
+a{
+    margin: auto;
+}
+
+.images{
+    visibility: hidden;
+    width: 9vw;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.twitter{
+    width: 1.5vw;
+}
+
+.facebook{
+    width: 1.5vw;
+}
+
+.instagram{
+    width: 1.5vw;
+}
+
+main{
+    flex-grow: 1;
+    flex-basis: auto;
+    display: grid;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.main{
+    width: 100vw;
+    margin-top: 1.38vw;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.left{
+    width: 33.3vw;
+    display: grid;
+    margin-left: 6.35vw;
+    margin-bottom: 4vw;
+    align-content: center;
+}
+
+.title{
+    -webkit-text-stroke-width: 0.25vw;
+    -webkit-text-stroke-color: #CA0000;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.75vw;
+    margin-bottom: 1.8vw;
+    display: flex;
+    justify-content: flex-start;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+.text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.38vw;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(270deg, #CA0000 7.97%, #310304 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img_right{
+    width: 59.1vw;
+    margin-left: -7vw;
+    z-index: 1;
+}
+
+
+.total{
+    display: grid;
+    align-items: center;
+    margin-top: 5vw;
+}
+
+.h1_a{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 43.8vw;
+    margin: auto;
+    margin-bottom: -4vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.7vw;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+.img{
+    margin: auto;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.hemoglobina{
+    margin: auto;
+    width: 52vw;
+}
+
+.hemacias_soltas{
+    position: absolute;
+    right: 0vw;
+    width: 29vw;
+    margin-top: -49vw;
+    z-index: 1;
+}
+
+.p_1{
+    margin: auto;
+    margin-top: -1vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+p{
+    width: 72.4vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    background: linear-gradient(270deg, #CA0000 7.97%, #310304 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.total_2{
+    display: grid;
+    margin-bottom: 2vw;
+    align-items: center;
+}
+
+.h1_b{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 43.8vw;
+    margin: auto;
+    margin-bottom: -1vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.7vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-color: #CA0000;
+    -webkit-text-stroke-width: 0.25vw;
+    background-clip: text;
+    text-shadow: 7px 4px 9px rgb(0 0 0 / 46%);
+}
+
+.img{
+    margin: auto;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.img_1{
+    margin: auto;
+    width: 52.5vw;
+    height: 29vw;
+}
+
+.p_2{
+    margin: auto;
+    margin-top: 2vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+p{
+    width: 72.4vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background: linear-gradient(270deg, #CA0000 7.97%, #310304 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.button_2{
+    width: 12.9vw;
+    height: 2.3vw;
+    background: linear-gradient(180deg, #CA0000 0%, #310304 100%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 2vw;
+    border: none;
+    font-style: normal;
+    color: white;
+    margin: auto;
+    margin-top: 4vh;
+
+    font-family: 'Noto Sans';
+    font-size: 0.78vw;
+    line-height: 21px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .button_1{
+        display: none;
+    }
+
+    .section_1 nav{
+        display: grid;
+        justify-content: center;
+    }
+
+    .logo_img{
+        width: 12vw;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .left{
+        margin: auto;
+        width: 60vw;
+    }
+
+    .title{
+        margin: auto;
+        font-size: 8vw;
+    }
+
+    .text{
+        font-size: 2.3vw;
+    }
+
+    .h1_1{
+        font-size: 8vw;
+    }
+
+    .hemoglobina{
+        width: 72vw;
+    }
+
+    .p_1 p{
+        font-size: 2.3vw;
+    }
+
+    .h1_2{
+        font-size: 8vw;
+    }
+
+    .p_2 p{
+        font-size: 2.3vw;
+    }
+
+    .img_1{
+        width: 78.75vw;
+        height: 43.5vw;
+    }
+
+    .button_2{
+        width: 25.8vw;
+        height: 4.6vw;
+        font-size: 1.58vw;
+    }
+  }
+
+
+@media only screen and (min-width: 1920px) {
+    html {
+      background-size: 100vw;
+    }
+  }

@@ -1,0 +1,486 @@
+html{
+    height: 400vh;
+    display: grid;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    height: 400vh;
+    width: 100vw;
+    justify-content: center;
+}
+
+nav ul{
+    display: none;
+    align-items: center;
+    position: fixed;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.section_1{
+    background-image: url("bck9.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.total_2{
+    display: grid;
+    justify-content: center;
+}
+
+.anemic_2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45vw;
+    max-width: 80vh;
+}
+
+.anemic_1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 41vw;
+    max-width: 73vh;
+}
+
+.logo{
+    position: absolute;
+    right: 2vw;
+    top: 2vw;
+    width: 7.3vw;
+}
+
+.doctor{
+    height: 100vh;
+}
+
+a{
+    margin: auto
+}
+
+.button_1{
+    position: absolute;
+    left: 3vw;
+    width: 19.2vw;
+    height: 3.4vw;
+    bottom: 2vw;
+    background: linear-gradient(180deg, #E1E1E1 0%, #FFFFFF 100%);
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%);
+    border-radius: 30vw;
+    color: #CA0000;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .doctor{
+        width: 80vw;
+        height: auto;
+    }
+
+    .button_1{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .section_1 {
+      background-size: 100vw;
+    }
+  }
+
+
+
+
+  .section_2{
+    background-image: url("bck5.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.total_3{
+    width: 100vw;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+}
+
+.left{
+    background-image: url("rectangle.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 50vw;
+    height: 43vw;
+}
+
+.box{
+    display: grid;
+    justify-items: center;
+    height: 100%;
+    color: green;
+}
+
+.h1_a{
+    margin-bottom: -1vw;
+}
+
+.h1_1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.15vw;
+    line-height: 2.4vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #CA0000 0%, #310304 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 38.6vw;
+}
+
+.p_a{
+    width: 38.6vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6vw;
+    line-height: 1.614vw;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    background: linear-gradient(180deg, #CA0000 0%, #310304 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+a{
+    margin: auto;
+    text-decoration: none;
+}
+
+.button_2{
+    width: 19.2vw;
+    height: 3.45vw;
+    margin-bottom: 4vw;
+    background: linear-gradient(90deg, #CA0000 0%, #310304 100%);
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%);
+    border-radius: 65.2887px;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.05vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .left{
+        width: 75vw;
+        height: 64.5vw;
+        background-size: 75vw;
+    }
+
+    .h1_1{
+        font-size: 3.225vw;
+        line-height: 3.6vw;
+        width: 57.9vw;
+    }
+
+    .p_a{
+        font-size: 2.4vw;
+        line-height: 2.421vw;
+        width: 57.9vw;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1919px) {
+    .left{
+        background-size: 50vw;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .section_2 {
+      background-size: 100vw;
+    }
+
+    .left{
+        display: flex;
+        align-items: center;
+    }
+
+    .box{
+        width: 960px;
+        height: 831.6px;
+    }
+
+    .h1_1{
+        font-size: 41.3px;
+        width: 741.15px;
+        line-height: 46px;
+    }
+
+    .p_a{
+        font-size: 30.72px;
+        width: 741.15px;
+        line-height: 31px;
+    }
+
+    .button_2{
+        font-size: 20.16px;
+        width: 368.65px;
+        height: 66.25px;
+    }
+  }
+
+
+
+
+
+  .section_3{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url("bck6.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.total_4{
+    display: grid;
+    align-items: center;
+    width: 64vw;
+}
+
+.img{
+    margin: auto;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.img_1{
+    margin: auto;
+    display: flex;
+    width: 80%;
+}
+
+.p_2{
+    margin: auto;
+    width: 95%;
+    margin-top: 1vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.h1_2{
+    margin-bottom: -1vw;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.33vw;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.p_b{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.33vw;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+    .total_4{
+        width: 80vw;
+    }
+
+    .p_2{
+        width: 90%;
+    }
+
+    .p_b{
+        font-size: 2vw;
+        line-height: 3vw;
+    }
+}
+
+
+@media only screen and (min-width: 1920px) {
+    .section_3 {
+      background-size: 100vw;
+    }
+  }
+
+
+
+
+
+  .section_4{
+    height: 100vh;
+    display: flex;
+    background-image: url(bck7.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+}
+
+.total_5{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+}
+
+.total_6{
+    width: 45vw;
+    margin-right: 2vw;
+    display: grid;
+    align-items: center;
+}
+
+.img_5{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.img_6{
+    margin: auto;
+    width: 90%;
+    height: 22vw;
+}
+
+.p_5{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 2vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.p_6{
+    width: 84%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.2456px;
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.01em;
+    background: linear-gradient(180deg, #CA0000 0%, #310304 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+a{
+    margin: auto;
+    text-decoration: none;
+}
+
+.button_5{
+    display: flex;
+}
+
+.button_6{
+    width: 19.2vw;
+    height: 3.45vw;
+    background: linear-gradient(90deg, #CA0000 0%, #310304 100%);
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 25%);
+    border-radius: 65.2887px;
+
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.05vw;
+    justify-content: center;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    margin-top: 2vw;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+    .total_5{
+        justify-content: center;
+    }
+
+    .total_6{
+        width: 70vw;
+    }
+
+    .img_6{
+        height: 35vw;
+    }
+
+    .p_6{
+        font-size: 2.2vw;
+    }
+
+    .button_6{
+        width: 25.2vw;
+        height: 4.45vw;
+        font-size: 1.35vw;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .section_4 {
+      background-size: 100vw;
+    }
+  }

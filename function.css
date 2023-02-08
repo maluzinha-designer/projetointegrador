@@ -1,0 +1,387 @@
+html{
+    height: 200vh;
+    display: grid;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button_mobile{
+    display: none;
+}
+
+.section_1{
+    background-image: url("bck4.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul{
+    display: none;
+    align-items: center;
+    position: fixed;
+    justify-content: flex-start;
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    z-index: 1;
+}
+
+.left_img{
+    width: 5.1vw;
+    max-width: 10vh;
+    position: absolute;
+    left: 1vw;
+    top: 1vw;
+}
+
+.right_img{
+    width: 11.2vw;
+    max-width: 20vh;
+    position: absolute;
+    right: 2vw;
+    top: 2vw;
+}
+
+.ifrn_img{
+    width: 7.3vw;
+    max-width: 13vh;
+    position: absolute;
+    bottom: 2vw;
+    left: 2vw;
+}
+
+.ellipse_7{
+    width: 18.5vw;
+    max-width: 33vh;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.total{
+    justify-content: center;
+    display: grid;
+    width: 44.4vw;
+    max-width: 79vh;
+    max-height: 89vh;
+    height: 50vw;
+    align-items: center;
+    z-index: 1;
+    background: linear-gradient(180deg, #CA0000 0%, rgba(49, 3, 4, 0) 100%);
+}
+
+.h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 43.8vw;
+    margin: auto;
+    margin-bottom: -1vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.h1_1{
+    margin-bottom: 2.5vw;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5.5vw;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: -8px 7px 12px rgba(0, 0, 0, 0.4);
+}
+
+.p{
+    margin: auto;
+    margin-top: 1vw;
+    width: 38vw;
+    max-width: 68vh;
+    max-height: 64vh;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.p_a, li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.28vw;
+    max-width: 68vh;
+    max-height: 13vh;
+    align-items: center;
+    text-align: justify;
+    letter-spacing: -0.01em;
+
+    color: #FFFFFF;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    margin: auto;
+    text-decoration: none;
+}
+
+.button_1{
+    background: linear-gradient(180deg, #E1E1E1 0%, #FFFFFF 100%);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 30vw;
+    width: 17.6vw;
+    height: 3.4vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.95vw;
+    justify-content: center;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #CA0000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .button{
+        display: none;
+    }
+
+    .total{
+        width: 66.6vw;
+        height: 75vw;
+    }
+
+    .h1_1{
+        font-size: 8.25vw;
+    }
+
+    .p_a, li{
+        font-size: 1.92vw;
+    }
+
+    .p{
+        width: 57vw;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .section_1 {
+      background-size: 100vw;
+    }
+
+    .h1_1{
+        font-size: 106px;
+    }
+
+    p, li{
+        font-size: 24.6px;
+    }
+
+    button{
+        font-size: 18.25px;
+        height: 65.3px;
+        width: 338px;
+    }
+  }
+
+
+
+
+
+  .section_2{
+    background-image: url("bck8.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_left_img{
+    position: absolute;
+    top: 6vw;
+    left: 0;
+    max-width: 18vh;
+    width: 10vw;
+}
+
+.top_right_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 18vh;
+    width: 10vw;
+}
+
+.right_img_2{
+    width: 11.2vw;
+    max-width: 20vh;
+    position: absolute;
+    right: 2vw;
+    bottom: 2vw;
+}
+
+.total_2{
+    display: grid;
+    margin-bottom: 2vw;
+    align-items: center;
+}
+
+.h1_b{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 43.8vw;
+    margin: auto;
+    margin-bottom: -1vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.h1_2{
+    font-family: 'Arial';
+    font-style: normal;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.3vw;
+    font-weight: 900;
+    font-size: 5.2vw;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #CA0000 26.95%, #310304 84.77%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-shadow: 7px 4px 9px rgb(0 0 0 / 46%);
+}
+
+.img{
+    margin: auto;
+    flex-grow: 1;
+    flex-basis: auto;
+}
+
+.img_1{
+    margin: auto;
+    width: 52.5vw;
+    height: 30vw;
+}
+
+.p_2{
+    margin: auto;
+    margin-top: 2vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.p_b{
+    width: 45vw;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-clip: text;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+    .h1_2{
+        font-size: 7.8vw;
+    }
+
+    .img_1{
+        width: 78.75vw;
+        height: 45vw;
+    }
+
+    .p_b{
+        width: 67.5vw;
+        font-size: 1.95vw;
+    }
+
+    .button_mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    .button_2{
+        background: linear-gradient(180deg, #E1E1E1 0%, #FFFFFF 100%);
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 30vw;
+        width: 26.4vw;
+        height: 5.1vw;
+        font-family: 'Noto Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.4vw;
+        justify-content: center;
+        line-height: 31px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #CA0000;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .section_2 {
+      background-size: 100vw;
+    }
+
+    .img_1{
+        width: 1008px;
+        height: 572px;
+    }
+
+    .h1_2{
+        font-size: 100px;
+    }
+
+    p{
+        font-size: 25px;
+        width: 864px;
+    }
+  }

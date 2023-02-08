@@ -1,0 +1,397 @@
+html{
+    height: 200vh;
+    display: grid;
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+    height: 200vh;
+}
+
+.mobile{
+    display: none;
+}
+
+.mobile2{
+    display: none;
+}
+
+.section_1{
+    background-image: url("bck1.png");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav_1{
+    display: flex;
+    width: 100vw;
+    margin-top: 1vw;
+    height: 12vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.logo_1{
+    width: 17vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo_img_1{
+    margin-left: 5vw;
+    width: 16.8vw;
+    margin-bottom: 6vw;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    width: 47vw;
+    margin-left: 32%;
+    margin-bottom: 6vw;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1vw;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+main{
+    flex-grow: 1;
+    flex-basis: auto;
+    display: grid;
+    align-content: center;
+}
+
+.main{
+    text-align: center;
+}
+
+.h3{
+    margin-right: 56%;
+    margin-bottom: -3vw;
+}
+
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    font-size: 1.25vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    justify-content: flex-end;
+}
+
+.h1_z{
+    color: #FFFFFF;
+    text-shadow: 0px 4px 6px rgb(0 0 0 / 75%);
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12vw;
+    line-height: 70px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+.h2{
+    margin-left: 52%;
+    margin-top: -3vw;
+}
+
+.h2_z{
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    font-size: 1.25vw;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.int{
+    margin-top: -1vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    font-size: 1.25vw;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+}
+
+.footer_1{
+    color: white;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.footer_a{
+    text-align: center;
+    margin-bottom: 1vw;
+}
+
+.flexbox{
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    align-items: center;
+    height: 12vw;
+    justify-content: space-evenly;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    h3, .h2_z, .int{
+        font-size: 2.25vw;
+    }
+
+    .mobile{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo_img_1{
+        width: 50vw;
+    }
+
+    .nav_1{
+        display: none;
+    }
+
+    .mobile2{
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile2 ul{
+        flex-direction: column;
+        margin-left: -5vw;
+        width: 100vw;
+    }
+
+    .mobile2 a{
+        font-size: 2.5vw;
+    }
+
+    .footer_1{
+        display: none;
+    }
+  }
+
+@media only screen and (min-width: 1920px) {
+    .section_1 {
+      background-size: 100vw;
+    }
+
+    .mobile{
+        display: none;
+    }
+
+    .mobile2{
+        display: none;
+    }
+  }
+
+  
+
+
+
+  .section_2{
+    background-image: url("bck3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+}
+
+.nav_2{
+    display: flex;
+    width: 100vw;
+    flex-grow: 0;
+    flex-basis: auto;
+}
+
+.main{
+    text-align: center;
+}
+
+main{
+    flex-grow: 1;
+    flex-basis: auto;
+    display: grid;
+    align-content: center;
+}
+
+.photo{
+    width: 85vw;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.image{
+    width: 16.25vw;
+    height: 22.75vw;
+    max-width: 318px;
+    max-height: 443px;
+    margin: 2vw;
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+.image:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.image_mid{
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+    width: 33.8vw;
+    max-width: 649px;
+}
+
+.image_mid:hover{
+    -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+}
+
+.h1_2{
+    -webkit-text-stroke-width: 0.45vw;
+    -webkit-text-stroke-color: #FB211F;
+    line-height: 70px;
+    margin-top: -2vw;
+    margin-bottom: 5vw;
+    font-size: 9.5vw;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+    justify-content: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 2px 5px rgb(0 0 0 / 30%);
+}
+
+.h2_2{
+    margin-top: 4vh;
+}
+
+.h2_b{
+    width: 80.8vw;
+    max-width: 1552px;
+    margin: auto;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    font-size: 0.9vw;
+    letter-spacing: 0.09vw;
+    text-transform: uppercase;
+}
+
+.footer_2{
+    color: white;
+    flex-grow: 0;
+    flex-basis: auto;
+    display: flex;
+}
+
+
+.footer_b{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo_2{
+    width: 17vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo_img_2{
+    margin-left: 5vw;
+    width: 16.8vw;
+}
+
+.images{
+    visibility: hidden;
+    width: 9vw;
+    margin-right: 2vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.twitter{
+    width: 1.5vw;
+}
+
+.facebook{
+    width: 1.5vw;
+}
+
+.instagram{
+    width: 1.5vw;
+}
+
+@media only screen and (max-width: 1200px) {
+    .h2_b{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .section_2 {
+      background-size: 100vw;
+    }
+
+    .h1_2{
+        font-size: 183px;
+        margin-bottom: 96px;
+    }
+
+    .h2_b{
+        font-size: 17.3px;
+    }
+  }
